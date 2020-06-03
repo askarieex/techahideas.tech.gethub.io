@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body
+{
+	background:url(image/login.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.input
+{
+ border:none;
+ padding: 10px;
+ border-left: 1px solid black;
+ margin-left: 5px;
+}
+.input-div
+{
+	margin-top: 10px;
+	margin-left: 35px;
+	width: 195px;
+	background:#fff;
+	border:1px solid #000;
+	border-radius: 2px;
+}
+#gape-in-div
+{
+	margin-bottom: 10px;
+}
+.submit-div
+{
+	width: 80px;
+	background:#fff;
+	padding: 8px;
+	margin-left: 35px;
+	margin-top: 10px;
+	border:1px solid #0055ff;
+	background-color: #003399;
+
+}
+#password
+{
+}
+#submit
+{
+	border:none;
+	background-color: #003399;
+	color: #fff;
+
+}
+.form-all-div
+{
+margin: auto;
+margin-top: 140px;
+width: 260px;
+height: 350px;
+border:1px double #000;
+background:rgba(5,4,627,.2);
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+border-top: none;
+}
+.fa-sign-in
+{
+color: #fff;
+}
+.form-all-div header
+{
+text-align: center;
+font-family: arial;
+font-size: 30px;
+background:#063146;
+line-height: 60px;
+color: #fff;
+border-bottom: 1px solid #fff;
+}

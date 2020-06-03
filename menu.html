@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+
+    body {
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("picture/ship.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+
+
+    }
+
+    input:focus {
+      outline: none;
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    .newbtn-on-cl:hover {
+      box-shadow: 0px 0px 0px 2px rgb(28, 28, 238);
+    }
+
+    .submit-div:hover {
+      box-shadow: 0px 0px 0px 2px rgb(28, 28, 238);
+    }
+
+    .navbar {
+      background: rgb(146, 146, 238);
+      color: #fff;
+      font-size: 23px;
+
+    }
+
+    #logo {
+      width: 70px;
+      height: 70px;
+      border-radius: 50px;
+    }
+    .channel-name
+    {
+      animation: h13 3s infinite alternate steps(15);
+      font-size: 80px;
+      overflow: hidden;
+      white-space: nowrap;
+      color:rgb(117, 0, 0);
+      font-family: consolas;
+      border-right: 4px solid #fff;
+
+    }
+    .ch-name3
+    {
+      color:#fff;
+      font-size: 65px;
+    }
+    .name-divhhh
+    {
+       margin-left:600px;
+       font-size: 55px;
+       margin-top: 100px;
+    }
+    button:focus
+{
+    outline: none;
+}
+    @keyframes h13{
+      0%
+      {
+       width:0ch;
+      }
+      100%
+      {
+       width:15ch;
+      }
+    }
+    input::placeholder
+    {
+      color:#fff;
+    }
+    @media(max-width:582px){
+      .name-divhhh
+    {
+       margin-left:0px;
+       font-size: 10px;
+       margin-top: 0px;
+       margin-bottom: 200px;
+    }
+    .ch-name3
+    {
+      font-size: 50px;
+      margin-left: 20px;
+      margin-top: 30px;
+    }
+    .channel-name
+    {
+      font-size: 45px;
+      margin:20px;
+    }
+    }
+
+  </style>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="loginnew.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="picture/tech.png" id="logo" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto ">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+          Shop
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">ELECTRONIC</a>
+            <a class="dropdown-item" href="#">BOOKS</a>
+            <a class="dropdown-item" href="#">LAPTOPS</a>
+            <a class="dropdown-item" href="#">DRONS</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+           Courses
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">HTML</a>
+            <a class="dropdown-item" href="#">CSS</a>
+            <a class="dropdown-item" href="#">JAVASCRIPT</a>
+            <a class="dropdown-item" href="#">JQUERY</a>
+            <a class="dropdown-item" href="#">Php</a>
+            <a class="dropdown-item" href="#">NODE JS</a>
+            <a class="dropdown-item" href="#">SQL</a>
+            <a class="dropdown-item" href="#">BOOTSTRAP</a>
+            <a class="dropdown-item" href="#">PYTHON</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+          Socal media
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">YOUTUBE</a>
+            <a class="dropdown-item" href="#">FACEBOOK</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">INSTAGRAM</a>
+          </div>
+        </li>
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="name-divhhh">
+    <h1 class="ch-name3">Welcome To</h1>
+      <h1 class="channel-name">Tech AH Ideas.</h1>
+  </div>
+  <div class="form-kkkcontaibner-no">
+    <div class="inform-no">
+      <h1 id="apna-time">LOG IN</h1>
+      <div class="name-div">
+        <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <input type="text" name="name" class="field-no" placeholder="username" autocomplete="off">
+      </div>
+      <div class="name-div">
+        <i class="fa fa-lock" aria-hidden="true"></i>
+        <input type="password" name="name" class="field-no" placeholder="password" autocomplete="off">
+
+      </div>
+      <div class="buttoncontainer">
+        <div class="submit-div">
+          <i class="fa fa-sign-in" aria-hidden="true"></i>
+          <input type="submit" class="btn-submit" value="LOGIN">
+        </div>
+        <div class="newbtn-on-cl">
+          <i class="fa fa-sign-out" aria-hidden="true"></i>
+          <a href="#"><button class="btn-submit">SignUp!</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
